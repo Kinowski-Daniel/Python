@@ -1,0 +1,29 @@
+import numpy as np
+from numpy import random
+
+wiel = int(input("Podaj rozmiar: "))
+
+
+
+nr1 = random.randint(10, size=(wiel, wiel))
+
+nr2 = random.randint(10, size=(wiel, wiel))
+
+dod = nr1 + nr2
+mno = nr1 * nr2
+
+print("\n")
+print("pierwsza Macierz")
+print(nr1)
+print("\n")
+print("Druga Macierz")
+print(nr2)
+print("\n")
+print("dodawanie")
+
+print(dod)
+print("\n")
+print("mnożenie")
+
+print(mno)
+#kinowski 
